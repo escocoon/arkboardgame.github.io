@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--
+      `viewport-fit=cover` lets the page reach under a notch and under Android's navigation bar;
+      the `env(safe-area-inset-*)` padding below is what hands that space back, so nothing is
+      drawn beneath the system bars. Pinch-zoom is left enabled here — `touch-action: none` on
+      the body already stops a two-finger board pan from being read as one, and disabling it
+      outright takes browser zoom away from anyone who needs it.
+    -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <!-- Android Chrome: paint the system bars in the game's own background. -->
+    <meta name="theme-color" content="#1d1d1d" />
+    <title>ARK Board Game</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+      }
+      body {
+        background: #1d1d1d;
+        color: #fff;
+        font-family: sans-serif;
+        box-sizing: border-box;
+        /*
+          `100vh` is Android Chrome's *large* viewport: it counts the space behind the
+          collapsible toolbar, so the bottom of a 100vh canvas sits off-screen until the toolbar
+          is scrolled away — which on a game page never happens. `100dvh` is the space actually
+          visible right now. The `100vh` line stays as the fallback for browsers without `dvh`.
+        */
+        height: 100vh;
+        height: 100dvh;
+        padding: env(safe-area-inset-top) env(safe-area-inset-right)
+          env(safe-area-inset-bottom) env(safe-area-inset-left);
+        /* Centres #game once the display-zoom setting shrinks it below 100%. */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        /* A drag on the board is a camera pan, not a page scroll. */
+        touch-action: none;
+        overscroll-behavior: none;
+      }
+      /*
+        Sized in percent, not viewport units, so the display-zoom setting can shrink it by
+        writing width/height here — see systems/DisplayScale.ts. Phaser's FIT mode fills
+        whatever box this element reports, and the flex centring above keeps it in the middle.
+      */
+      #game {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+    <script type="module" crossorigin src="./assets/index-D1C0ONd4.js"></script>
+  </head>
+  <body>
+    <div id="game"></div>
+  </body>
+</html>
