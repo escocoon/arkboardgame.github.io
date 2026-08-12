@@ -6,8 +6,8 @@
       `viewport-fit=cover` lets the page reach under a notch and under Android's navigation bar;
       the `env(safe-area-inset-*)` padding below is what hands that space back, so nothing is
       drawn beneath the system bars. Pinch-zoom is left enabled here — `touch-action: none` on
-      the body already stops a two-finger board pan from being read as one, and disabling it
-      outright takes browser zoom away from anyone who needs it.
+      the body *and on the canvas* stops a two-finger board pinch from being read as one, and
+      disabling it outright takes browser zoom away from anyone who needs it.
     -->
     <meta
       name="viewport"
@@ -55,8 +55,23 @@
         width: 100%;
         height: 100%;
       }
+      /*
+        ⚠️ `touch-action` is NOT inherited, and the finger lands on the *canvas*, not on the
+        body — so the `touch-action: none` above governs nothing that matters here. Phaser
+        never sets this property itself (there is no `touchAction` write anywhere in its input
+        layer), which leaves the canvas at the default `auto`: the browser is free to claim a
+        two-finger gesture as its own page pinch-zoom, and once it has, the touchmove events it
+        forwards are flagged non-cancelable — Phaser's own `preventDefault` is guarded on
+        `event.cancelable`, so it silently becomes a no-op and the second finger never reaches
+        `InputController`. That is the whole of "pinch to zoom does not work on mobile": the
+        board's zoom code was never called. Declaring it here stops the browser claiming the
+        gesture in the first place, which is the only point at which it can still be refused.
+      */
+      #game canvas {
+        touch-action: none;
+      }
     </style>
-    <script type="module" crossorigin src="./assets/index-4ao_fyey.js"></script>
+    <script type="module" crossorigin src="./assets/index-DrLX-z22.js"></script>
   </head>
   <body>
     <div id="game"></div>
