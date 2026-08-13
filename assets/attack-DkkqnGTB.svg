@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Basic attack: a plain sword, corner to corner. -->
+  <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 44 L55 9" stroke-width="6.5"/>
+    <path d="M11 39 L25 53" stroke-width="4.5"/>
+    <path d="M14 47 L21 40" stroke-width="4.5"/>
+  </g>
+  <circle cx="11" cy="53" r="3.6" fill="#fff"/>
+</svg>

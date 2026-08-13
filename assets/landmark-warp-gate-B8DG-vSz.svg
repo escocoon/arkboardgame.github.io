@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Warp Gate: a hex ring with something passing straight through it. Pointy-top, so
+       it matches the board's own honeycomb; the frame is cut where the arrow crosses,
+       which is what makes it read as a way through rather than a hex with a dash in it. -->
+  <mask id="arrow-gap">
+    <rect width="64" height="64" fill="#fff"/>
+    <rect x="4" y="24" width="56" height="16" fill="#000"/>
+  </mask>
+  <g fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 8 L53 20 V44 L32 56 L11 44 V20 Z" mask="url(#arrow-gap)"/>
+    <path d="M14 32 H50" stroke-width="6"/>
+    <path d="M40 22 L50 32 L40 42"/>
+  </g>
+</svg>

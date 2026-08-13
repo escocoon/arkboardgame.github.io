@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Skip Turn: skip-to-end. The pass you make *instead* of acting, so it hands the
+       turn on rather than reversing anything — no curved arrow, which would read as undo. -->
+  <g fill="#fff">
+    <path d="M8 15 L28 32 L8 49 Z"/>
+    <path d="M26 15 L46 32 L26 49 Z"/>
+    <rect x="49" y="13" width="7" height="38" rx="3.5"/>
+  </g>
+</svg>
