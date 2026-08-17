@@ -15,6 +15,32 @@
     />
     <!-- Android Chrome: paint the system bars in the game's own background. -->
     <meta name="theme-color" content="#1d1d1d" />
+    <meta
+      name="description"
+      content="A six-seat hex-board race for the fallen ARK Core, with a turn-based arena underneath it."
+    />
+    <!--
+      Installable-app plumbing. Every href is *relative*, for the reason vite.config.ts sets
+      `base: './'` — GitHub Pages serves this repo from /ark-board-game/, and a leading slash would
+      point at the domain root. See public/manifest.webmanifest and public/sw.js.
+    -->
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="./icon.svg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png" />
+    <!-- iOS reads none of the manifest's icons; this is the only one it will use. -->
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="ARK" />
+    <!--
+      `black-translucent` puts the iOS status bar over the page rather than beside it, which is
+      what makes the `env(safe-area-inset-*)` padding below the thing that positions the canvas —
+      one rule for the notch instead of two that can disagree.
+    -->
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
     <title>ARK Board Game</title>
     <style>
       html,
@@ -71,9 +97,9 @@
         touch-action: none;
       }
     </style>
-    <script type="module" crossorigin src="./assets/index-fQqMz5uL.js"></script>
+    <script type="module" crossorigin src="./assets/index-BktyJo9B.js"></script>
   </head>
   <body>
-    <div id="game"></div>
+    <div id="game"></div>
   </body>
 </html>
