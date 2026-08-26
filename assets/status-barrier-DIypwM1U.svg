@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Barrier: a dome on a baseline.
+       ⚠️ Deliberately not a shield — the point of a dome is that it is a pool that runs out, where a
+       shield is standing mitigation. guard.svg and `fortified` are already the two shield-shaped
+       things on this card. -->
+  <g fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 45 A20 20 0 0 1 52 45"/>
+    <path d="M9 52 H55"/>
+  </g>
+</svg>

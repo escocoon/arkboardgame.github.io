@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Fortified: three stacked armour plates.
+       ⚠️ Deliberately not a shield — guard.svg is the shield, and the two are different things: a
+       brace taken this turn against any standing mitigation. Two shields on one card is the
+       collision this set most has to avoid. -->
+  <g fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 22 Q32 13 50 22"/>
+    <path d="M14 35 Q32 26 50 35"/>
+    <path d="M14 48 Q32 39 50 48"/>
+  </g>
+</svg>

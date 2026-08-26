@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Exhausted: the same phone battery, down to one bar.
+
+       ⚠️ The bar is filled, not stroked, and sits hard against the left wall — centred or outlined
+       it reads as a slot rather than as a charge level.
+
+       ⚠️ It must stay small. The whole pair rests on this outline reading as *hollow* against
+       `energized`'s solid one at 10px, so a bar much past a third of the width closes that gap and
+       the two become one icon twice — which is exactly how the first bolt/broken-bolt pair failed. -->
+  <g fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M13 20 H41 A4 4 0 0 1 45 24 V40 A4 4 0 0 1 41 44 H13 A4 4 0 0 1 9 40 V24 A4 4 0 0 1 13 20 Z"/>
+    <path d="M51 27 V37" stroke-width="5"/>
+    <rect x="14" y="25" width="8" height="14" rx="2" fill="#fff" stroke="none"/>
+  </g>
+</svg>

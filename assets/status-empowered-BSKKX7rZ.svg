@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Empowered: a ring holding an upward arrow — loaded, and pointed.
+       ⚠️ Not a starburst (`keen`) and not a filled dot in a ring (`primed`). -->
+  <g fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="32" cy="32" r="20"/>
+    <path d="M32 44 V22"/>
+    <path d="M23 31 L32 21 L41 31"/>
+  </g>
+</svg>

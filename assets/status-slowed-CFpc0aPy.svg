@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Slowed: an anchor — ring, shaft, crossbar, fluke.
+       ⚠️ Deliberately not a clock, hourglass or stopwatch: the board already has a turn timer and
+       this would read as it. ⚠️ And deliberately not a reversed chevron, or it would be `haste`
+       rotated — see §3.2 of docs/status-icon-prompts.md. -->
+  <g fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="32" cy="12" r="5"/>
+    <path d="M32 17 V54"/>
+    <path d="M20 26 H44"/>
+    <path d="M12 37 C12 50 21 57 32 57 C43 57 52 50 52 37"/>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Taunted: a double exclamation — "here, at me".
+       ⚠️ Two heavy bars and two dots, and nothing else. This is the most legible glyph in the set at
+       10px, which is worth having on one of the two Phase 3 control kinds.
+       ⚠️ It replaced a crosshair, which was clean at 64px and collapsed to an indistinct dot at chip
+       size. -->
+  <g fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M23 10 V37" stroke-width="7.5"/>
+    <circle cx="23" cy="50" r="4.6" fill="#fff" stroke="none"/>
+    <path d="M41 10 V37" stroke-width="7.5"/>
+    <circle cx="41" cy="50" r="4.6" fill="#fff" stroke="none"/>
+  </g>
+</svg>
