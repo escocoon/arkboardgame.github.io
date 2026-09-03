@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <!-- Siphoning: a droplet falling into a heart — damage dealt, coming back.
-       ⚠️ The heart is what makes it *taking back* rather than `bleeding` (a drop alone) or
-       `regeneration` (a plus). -->
-  <g fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M32 56 C13 41 9 29 17 22 C23 17 30 21 32 26 C34 21 41 17 47 22 C55 29 51 41 32 56 Z"/>
-    <path d="M32 4 C32 4 38 12 38 15 A6 6 0 0 1 26 15 C26 12 32 4 32 4 Z" stroke-width="4.5"/>
-  </g>
-</svg>

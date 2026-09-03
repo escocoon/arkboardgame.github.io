@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <!-- Blinded: an eye, struck through. Shares the slash with `silenced`, differs in the base glyph.
-       ⚠️ Not a closed eye — a single curved line is a dash at 10px. -->
-  <g fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M9 32 C17 20 47 20 55 32 C47 44 17 44 9 32 Z"/>
-    <circle cx="32" cy="32" r="5" fill="#fff" stroke="none"/>
-    <path d="M12 51 L52 13" stroke-width="6"/>
-  </g>
-</svg>

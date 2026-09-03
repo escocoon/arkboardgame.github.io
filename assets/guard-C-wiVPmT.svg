@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <!-- Guard: a shield, held. Not a lock and not a wall — the brace is something the fighter does
-       for a turn, so the shape is raised rather than built.
-       ⚠️ Deliberately **empty**. The first version put a chevron inside it, which at button size is
-       a tick: a shield with a checkmark reads as "confirmed", the wrong half of the action bar. -->
-  <g fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M32 7 L53 15 V31 C53 43 44 52 32 57 C20 52 11 43 11 31 V15 Z"/>
-  </g>
-</svg>
