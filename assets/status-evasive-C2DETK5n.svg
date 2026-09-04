@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Evasive: an arrow whose shaft bends clear of a solid dot — the blow went past.
+       ⚠️ If the curve stops reading at 10px the fallback is two nested crescents (an afterimage),
+       never more detail. -->
+  <g fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M13 52 C13 17 51 17 51 46"/>
+    <path d="M44 39 L51 48 L58 39"/>
+    <circle cx="32" cy="52" r="5" fill="#fff" stroke="none"/>
+  </g>
+</svg>

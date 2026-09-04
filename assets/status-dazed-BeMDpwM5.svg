@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Dazed: one loose wave, two crests.
+       ⚠️ Deliberately not a down-chevron in a ring, which would be `empowered` flipped, and not
+       stars round a head, which is far too much detail. Watch it against `confused`: a spiral
+       closes inward, this runs flat across. -->
+  <g fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 40 C16 20 24 20 32 40 C40 60 48 60 56 40" stroke-width="6"/>
+  </g>
+</svg>

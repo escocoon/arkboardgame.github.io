@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Burning: a flame — asymmetric, with a licking notch on the left and a curled tip.
+       ⚠️ The asymmetry is the whole icon. The first version was a symmetric teardrop, which at 10px
+       was indistinguishable from `bleeding`'s droplet — caught by the silhouette test in
+       status-preview.html, not by looking at it at 64px. -->
+  <g fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M31 5 C35 17 30 21 26 25 C24 21 24 18 24 18 C17 27 15 33 18 41 C21 51 29 56 34 56 C45 56 51 47 51 37 C51 25 40 20 31 5 Z"/>
+  </g>
+</svg>

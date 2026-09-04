@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Energized: a phone battery at full charge.
+
+       ⚠️ This pair differs *inside* the outline, which §3.1 normally forbids — and it survives
+       because the difference is one of **ink density** rather than of detail. Filled solid at 10px
+       this is a near-solid block and `exhausted` is a hollow outline with a speck in it, which is
+       still two distinguishable silhouettes. Detail inside an outline dies at that size; a fill
+       level does not.
+
+       ⚠️ So the charge must stay a plain filled rectangle running nearly the full width. Drawn as
+       three or four separate bars — which is the other way phones show this — the gaps between them
+       close up at chip size and it reads as a solid block anyway, i.e. as this icon, only fuzzier. -->
+  <g fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M13 20 H41 A4 4 0 0 1 45 24 V40 A4 4 0 0 1 41 44 H13 A4 4 0 0 1 9 40 V24 A4 4 0 0 1 13 20 Z"/>
+    <path d="M51 27 V37" stroke-width="5"/>
+    <rect x="14" y="25" width="26" height="14" rx="2" fill="#fff" stroke="none"/>
+  </g>
+</svg>

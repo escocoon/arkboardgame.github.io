@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Airdrop: a crate under a canopy. The parachute is what separates it from an
+       ordinary cache — this one arrived mid-match, and everyone saw it come down. -->
+  <g fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M9 25 a23 23 0 0 1 46 0"/>
+    <path d="M9 25 q7 8 14 0 q9 8 18 0 q7 8 14 0"/>
+    <path d="M16 27 L24 38"/>
+    <path d="M48 27 L40 38"/>
+    <rect x="21" y="38" width="22" height="18" rx="3"/>
+    <path d="M32 38 V56"/>
+  </g>
+</svg>

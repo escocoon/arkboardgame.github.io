@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Vulnerable: the same three plates, split by a crack. The "crack" language again. -->
+  <g fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 22 Q32 13 50 22"/>
+    <path d="M14 35 Q32 26 50 35"/>
+    <path d="M14 48 Q32 39 50 48"/>
+    <path d="M31 11 L37 26 L28 37 L35 53" stroke-width="4.5"/>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Poisoned: a skull — cranium, two sockets, a short jaw. Three marks and no interior detail.
+       ⚠️ Deliberately not a flask or a bubbling vial: both need interior detail that dies at 10px,
+       and not a droplet, which `bleeding` owns. -->
+  <g fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 12 A16 16 0 0 1 32 44 A16 16 0 0 1 32 12 Z"/>
+    <path d="M23 42 V51 H41 V42"/>
+    <circle cx="26" cy="28" r="3.6" fill="#fff" stroke="none"/>
+    <circle cx="38" cy="28" r="3.6" fill="#fff" stroke="none"/>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Speed: motion, as three trailing lines behind a leading chevron. Not a boot and not a clock —
+       the stat decides how *often* a fighter acts, so the shape is travel rather than footwear or
+       elapsed time, and a clock would read as the turn timer the board already has.
+       ⚠️ Deliberately asymmetric: the lines shorten toward the top so the glyph has a direction. At
+       the 13-16px this is drawn at on a combatant card, a symmetric set of dashes reads as an
+       equals sign. -->
+  <g fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M34 14 L52 32 L34 50"/>
+    <path d="M22 20 H8"/>
+    <path d="M22 32 H14"/>
+    <path d="M22 44 H8"/>
+  </g>
+</svg>

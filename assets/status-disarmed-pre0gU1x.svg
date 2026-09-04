@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Disarmed: a sword snapped in two — hilt and stump upright, the tip fallen away to one side.
+       ⚠️ **The gap carries the icon, not the jagged edge.** A snapped-edge zigzag is about 1px at
+       chip size and reads as noise; a clean break with the tip visibly *displaced* survives, which
+       is why the shard is both offset and tilted rather than sitting in line above the stump.
+       ⚠️ Deliberately not a sword with a slash through it: `attack.svg` is the action bar's blade,
+       so this has to read as the same object broken rather than as a second glyph negated — and a
+       diagonal bar is already the vocabulary of a refusal, which is a different statement.
+       ⚠️ §3.2: nothing else in the set is a vertical bar with a crossbar, and the shard is what
+       keeps it clear of a point reflection of itself. -->
+  <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+    <!-- The stump: what is left of the blade, standing in the hilt. -->
+    <path d="M32 45 V29" stroke-width="7"/>
+    <!-- Crossguard and grip. Lighter than the blade: the break is the subject. -->
+    <path d="M19 45 H45" stroke-width="5.5"/>
+    <path d="M32 45 V54" stroke-width="5.5"/>
+    <circle cx="32" cy="57" r="3.4" fill="#fff" stroke="none"/>
+    <!-- The fallen tip. -->
+    <path d="M44 22 L50 10" stroke-width="7"/>
+  </g>
+</svg>

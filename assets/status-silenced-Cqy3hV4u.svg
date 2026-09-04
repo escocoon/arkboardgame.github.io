@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Silenced: a face with its mouth taped shut — two eyes and a bold X where the mouth is.
+       ⚠️ The X carries the icon and the face is the frame, so the X is the heaviest stroke here and
+       the ring is the lightest. At chip size the eyes are the first thing to go, which is fine: a
+       ring with an X across its lower half still reads as a shut mouth. -->
+  <g fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="32" cy="32" r="25" stroke-width="4"/>
+    <circle cx="23" cy="26" r="3.6" fill="#fff" stroke="none"/>
+    <circle cx="41" cy="26" r="3.6" fill="#fff" stroke="none"/>
+    <path d="M23 38 L41 50" stroke-width="7"/>
+    <path d="M41 38 L23 50" stroke-width="7"/>
+  </g>
+</svg>

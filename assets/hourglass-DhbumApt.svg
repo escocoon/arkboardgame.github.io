@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Hourglass: how long a status has left, in the control panel's status column.
+       Two caps and a waist, with the sand as one solid wedge in the lower bell — the shape has to
+       read at 12px, where the two-triangles-and-a-neck drawing collapses into a filled bowtie and
+       stops saying "time" at all.
+       ⚠️ Stroked in #fff like every other icon here: `setTint` is the whole palette, so a shape with
+       a colour of its own cannot be re-inked by whoever is drawing it. -->
+  <g fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M17 8 H47"/>
+    <path d="M17 56 H47"/>
+    <path d="M20 8 V18 C20 26 32 30 32 32 C32 34 20 38 20 46 V56"/>
+    <path d="M44 8 V18 C44 26 32 30 32 32 C32 34 44 38 44 46 V56"/>
+  </g>
+  <!-- The sand, run through. Filled rather than stroked so it is a mass at small sizes. -->
+  <path fill="#fff" d="M32 38 C32 38 25 43 25 50 H39 C39 43 32 38 32 38 Z"/>
+</svg>

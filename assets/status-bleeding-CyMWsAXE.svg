@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Bleeding: a single droplet, and nothing else.
+       ⚠️ Drawn large, because it is now the whole icon. This is only safe because `burning` was
+       redrawn asymmetric — the two were both teardrops in the first pass and were indistinguishable
+       at 10px. If the flame is ever "tidied" back into a symmetric shape, this collides again. -->
+  <g fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 8 C32 8 49 32 49 43 A17 17 0 0 1 15 43 C15 32 32 8 32 8 Z"/>
+  </g>
+</svg>
