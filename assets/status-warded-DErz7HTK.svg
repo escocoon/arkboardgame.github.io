@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Warded: a bolt turned aside — it comes in from the upper left, meets an angled plane, and
+       leaves at a right angle to where it was going.
+       ⚠️ **Deliberately not a shield.** `guard.svg` is a shield and is the glyph for
+       `damageReduction`, which is the stat that turns aside a *share* of everything; this is the
+       flag that refuses one thing outright, and two shields would say those are the same mechanic.
+       ⚠️ **Deliberately not a bubble either**, which is the shape `barrier` will want when it is
+       built — a pool that soaks damage is a volume, and this is a surface.
+       ⚠️ **The angle is what carries it, not the plane.** At chip size the plane is three or four
+       pixels of stroke; what survives is the *elbow* — a line arriving and leaving on visibly
+       different headings, which nothing else in this set does. So the two segments are equal in
+       weight and the plane is lighter, the inverse of the instinct.
+       ⚠️ §3.2: the gap at the elbow is required. Drawn as one continuous polyline it reads as a
+       chevron, which is a direction rather than a refusal. -->
+  <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+    <!-- The plane it meets. Lighter: the deflection is the subject, not the wall. -->
+    <path d="M40 12 L40 52" stroke-width="5"/>
+    <!-- Incoming, upper left. -->
+    <path d="M10 20 L31 30" stroke-width="7"/>
+    <!-- Leaving, turned. The gap at x=31..34 is what stops the two reading as one bent line. -->
+    <path d="M34 34 L16 50" stroke-width="7"/>
+  </g>
+</svg>

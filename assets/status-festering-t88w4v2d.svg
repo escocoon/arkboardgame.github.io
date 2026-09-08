@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Festering: a wound held open — two lips of a gash with the sutures that should have closed it
+       broken and hanging.
+       ⚠️ **The gap is the subject, and it has to stay wide.** The instinct is a neat cut with tidy
+       stitches, which at chip size closes up into a single thick stroke and reads as `bleeding`.
+       Two clearly separated curves with space between them survive.
+       ⚠️ **Deliberately not a cross or a plus negated.** Nothing in this set uses a medical cross,
+       and introducing one only to strike it through would be teaching a symbol in order to cancel
+       it — two glyphs for one meaning.
+       ⚠️ §3.2: the broken sutures run *across* the gap and stop short on both sides, which is what
+       keeps it clear of `bleeding`'s falling drops and of `slowed`'s parallel bars. -->
+  <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+    <!-- The two lips of the wound. -->
+    <path d="M24 10 C18 24 18 40 24 54" stroke-width="6"/>
+    <path d="M40 10 C46 24 46 40 40 54" stroke-width="6"/>
+    <!-- Sutures that gave way: each stops short of the middle, so the gap stays open. -->
+    <path d="M26 22 H30" stroke-width="4.5"/>
+    <path d="M34 22 H38" stroke-width="4.5"/>
+    <path d="M26 42 H30" stroke-width="4.5"/>
+    <path d="M34 42 H38" stroke-width="4.5"/>
+  </g>
+</svg>

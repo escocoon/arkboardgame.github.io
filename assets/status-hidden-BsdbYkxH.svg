@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Hidden: a target reticle with nothing in it — four corner brackets around an empty centre.
+       ⚠️ **The void is the subject.** Every other glyph in this set has something at its middle: a
+       body, a dot, a bolt, a drop. This one is the only one that is empty there, which is what makes
+       it read as *there is nothing to aim at* rather than as another flavour of protection — and it
+       is why the brackets are pulled well back off the centre instead of closing in on it.
+       ⚠️ **Deliberately not a crossed-out eye.** An eye is *concealment*, which is a fiction about
+       being unseen; this is a rule about a target list, and a fighter holding it is in plain view.
+       ⚠️ **Deliberately not `status-evasive`'s shape.** That one is an arrow bending past a solid
+       dot — the blow went by a body that was there. The contrast is the dot: keep the centre of this
+       one empty and the two stay distinguishable at chip size, where the curve and the brackets are
+       each only a few pixels of stroke.
+       ⚠️ **Not a shield either** — `guard.svg` is the shield and `status-warded` is already the
+       refusal; a third defensive plate would say those three are one mechanic.
+       §3.2: if the four brackets read as noise at 10px, the fallback is two opposed brackets (top-left
+       and bottom-right) at a heavier weight — never a fifth mark, and never something in the middle. -->
+  <g fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 24 L10 10 L24 10"/>
+    <path d="M40 10 L54 10 L54 24"/>
+    <path d="M54 40 L54 54 L40 54"/>
+    <path d="M24 54 L10 54 L10 40"/>
+  </g>
+</svg>
