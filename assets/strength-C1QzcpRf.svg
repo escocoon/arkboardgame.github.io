@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Strength: §3.4's second resource, which is manpower — what you *send*, as opposed to the
+       scrip you *pay*. Two figures, one behind the other, so the glyph reads as a body of people
+       rather than as one person.
+
+       ⚠️ **Not a fist, a sword or a shield.** Landfall has no combat at all (§9): strength claims
+       empty ground and clears a blocker, and a weapon on the glyph would promise a fight the mode
+       cannot deliver. It is also why this is not `icon:attack` re-tinted.
+
+       ⚠️ **The rear figure is cropped by the front one rather than drawn whole**, and is a head and
+       a shoulder only. At the ~11px the HUD's header band draws this, two complete figures side by
+       side merge into one wide mass; an offset partial silhouette keeps the "more than one" reading,
+       which is the entire content of the icon.
+
+       ⚠️ **Filled, not stroked.** A head outlined at stroke-width 5 is a ring at this size, and two
+       rings over two arcs read as a pair of keys. The silhouette is the shape, so the ink is too —
+       the call `energy.svg` records in this set.
+
+       ⚠️ White like everything here: `setTint` is the whole palette (`LANDFALL_COLORS.strength`). -->
+  <g fill="#fff">
+    <!-- the one behind, offset up and right and cut off by the front figure's edge -->
+    <circle cx="43" cy="20" r="8"/>
+    <path d="M43 31 c9 0 15 6 16 15 H40 c0 -6 -2 -11 -5 -14 c2 -0.7 5 -1 8 -1 Z"/>
+    <!-- the one in front -->
+    <circle cx="25" cy="24" r="11"/>
+    <path d="M25 38 c11 0 18 7 19 18 H6 c1 -11 8 -18 19 -18 Z"/>
+  </g>
+</svg>

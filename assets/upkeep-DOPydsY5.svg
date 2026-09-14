@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Upkeep: what holding ground costs you every turn (§5.4's curve), as a weight.
+
+       ⚠️ **A burden, not an outgoing arrow and not a drain.** The figure beside this one is already
+       signed (`+3 a turn`), so an arrow would restate the sign and say nothing about *why*; the
+       point of the curve is that each further node is heavier than the last, which is what a weight
+       carries and a spout does not. A down arrow is also the one shape this glyph may not be: the
+       HUD's fold button is a solid triangle a few pixels above it.
+
+       ⚠️ **A capped block, not a handled kettlebell.** The first version was a stroked handle arc
+       over a filled trapezoid, and at the ~11px the HUD's income line draws it the arc closed into
+       the body and the whole glyph read as a tent. What survives that size is one silhouette with a
+       flat cap on it — nothing else in this set is a trapezoid, so the shape stays unambiguous
+       without any interior detail to lose.
+
+       ⚠️ **The cap is narrower than the shoulders, and the silhouette widens all the way down.**
+       The second version capped a flared body with a bar wider than the flare's top, which puts a
+       waist between the two — and a waist between two spreading halves is an **hourglass**, which
+       this set already has, means *time left*, and is drawn on this very panel's other rows. Caught
+       by rasterising the file at the size it ships at rather than by looking at it at 64. Any edit
+       here has to keep the width monotonic from cap to foot.
+
+       ⚠️ White like everything here: `setTint` is the whole palette (`LANDFALL_COLORS.upkeep`). -->
+  <path fill="#fff"
+        d="M22 12 H42 a5 5 0 0 1 5 5 v5 a5 5 0 0 1 -0.6 2.4 L55 50 a5 5 0 0 1 -4.6 7 H13.6
+           A5 5 0 0 1 9 50 L17.6 24.4 A5 5 0 0 1 17 22 v-5 a5 5 0 0 1 5 -5 Z"/>
+</svg>

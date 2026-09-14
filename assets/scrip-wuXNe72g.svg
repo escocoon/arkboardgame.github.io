@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Scrip: Landfall's currency, as a printed note. Read on the board HUD's figure row, the base
+       screen's header and the turn screen's bank fork, wherever a wallet is stated.
+
+       ⚠️ **A note and not a coin.** §5.4's currency is paper issued against a landing that has not
+       paid for itself yet — the whole reason it is called scrip rather than money — and a coin
+       reads as specie, which is the one thing the fiction says nobody down here has.
+
+       ⚠️ **Filled with the seal knocked *out* of it, not stroked with a disc drawn on top.** The
+       first version was a stroked rectangle with a filled centre mark and two end ticks, and at the
+       ~11px the HUD's figure row draws it the interior is about two pixels tall: the stroke, the
+       ticks and the mark all landed in the same two pixels and the glyph read as a smudge. Solid
+       ink with a hole in it is the one drawing of a note whose two parts cannot collide, because
+       the hole is *made of* the gap. The call `energy.svg` records — the silhouette is the shape,
+       so the ink has to be the shape too.
+
+       ⚠️ Filled #fff like every other icon here is stroked #fff: `setTint` is the whole palette
+       (`LANDFALL_COLORS.scrip` is what the panel inks it with), so a shape carrying a colour of its
+       own could not be re-inked by whoever draws it. -->
+  <path fill="#fff" fill-rule="evenodd"
+        d="M8 16 H56 a6 6 0 0 1 6 6 V42 a6 6 0 0 1 -6 6 H8 a6 6 0 0 1 -6 -6 V22 a6 6 0 0 1 6 -6 Z
+           M32 24 a8 8 0 1 0 0.01 0 Z"/>
+</svg>
