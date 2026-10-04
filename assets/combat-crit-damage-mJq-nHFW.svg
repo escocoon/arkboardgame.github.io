@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Crit damage: keen's four-pointed spark, smaller and up-left, with an arrow rising beside it —
+       "a crit lands for more". The spark is the shared vocabulary with `status-keen` (crit chance);
+       the arrow is what tells the two apart at 12px. White, tinted by the caller like the status set. -->
+  <g fill="none" stroke="#fff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 6 L27 21 L42 24 L27 27 L24 42 L21 27 L6 24 L21 21 Z"/>
+    <path d="M48 58 L48 32"/>
+    <path d="M39 41 L48 32 L57 41"/>
+  </g>
+</svg>
