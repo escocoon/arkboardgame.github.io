@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Support: two upward chevrons, lifting the side. Not a plus, which reads as a heal. -->
+  <path fill="#fff" d="M32 4 58 28 50 36 32 20 14 36 6 28Z M32 28 58 52 50 60 32 44 14 60 6 52Z"/>
+</svg>

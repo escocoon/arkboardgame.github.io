@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Defender: a kite shield. The darker half is a bevel, kept as alpha so a tint still owns the hue. -->
+  <path fill="#fff" d="M32 4 56 12V30C56 46 46 56 32 61 18 56 8 46 8 30V12Z"/>
+  <path fill="#fff" fill-opacity=".55" d="M32 12 48 17V30C48 41 41 48 32 53Z"/>
+</svg>
